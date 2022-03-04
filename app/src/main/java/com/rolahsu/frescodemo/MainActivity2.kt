@@ -72,5 +72,6 @@ class MainActivity2 : AppCompatActivity() {
             .setControllerListener(downloadListener)
             .build()
         simpleImage.controller = controller
+        simpleImage2.controller = controller
     }
 }
